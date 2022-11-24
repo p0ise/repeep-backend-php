@@ -5,9 +5,10 @@ nonebot-plugin-repeep插件配套CSRF后端的PHP实现
 
 ## 安装
 
-1. 将`config.php`的密钥改成你自己的，然后填入配置项`trace_secret`。
-2. 上传至服务器，将配置项`trace_api`改成你的URL。
-3. （可选）将`/data`目录和`/render`目录设为禁止访问。
+1. 下载本项目到本地，在项目目录下创建`data`目录
+2. 将`config.php`的密钥改成你自己的，然后填入配置项`trace_secret`。
+3. 上传至服务器，将配置项`trace_api`改成你的URL。
+4. （可选）将`/data`目录和`/render`目录设为禁止访问。
 
 # API说明
 
@@ -167,7 +168,7 @@ GET /data.php
 | 名称     | 类型         | 必选 | 说明   |
 | -------- | ------------ | ---- | ------ |
 | » status | integer      | true | 状态码 |
-| » data   | [array]¦null | true | none   |
+| » data   | [array]¦null | true | 数据   |
 
 #### 枚举值
 
