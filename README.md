@@ -3,6 +3,10 @@ nonebot-plugin-repeep插件配套CSRF后端的PHP实现
 
 # 开始使用
 
+## 前提
+
+- PHP 5.6+
+
 ## 安装
 
 1. 下载本项目到本地，在项目目录下创建`data`目录
